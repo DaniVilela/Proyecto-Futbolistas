@@ -34,6 +34,7 @@ INSERT INTO futbolista (nombres, apellidos, fecha_nacimiento, caracteristicas, p
 ('Raúl', 'Ortiz', '1984-06-16', 'Explosivo en los contraataques', 5); 
 
 select* from futbolista;
+
 select * from posicion;
 
 /*para ver la lista de futbolistas con sus posiciones*/
