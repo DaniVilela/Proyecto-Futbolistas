@@ -1,0 +1,15 @@
+@if (futbolista) {
+<div class="container">
+    <h2>Futbolista Detalle</h2>
+    <p>Nombres: {{ futbolista.nombres }}</p>
+    <p>Apellidos: {{ futbolista.apellidos }}</p>
+    <p>Fecha de Nacimiento: {{ futbolista.fecha_nacimiento }}</p>
+    <p>Características: {{ futbolista.caracteristicas }}</p>
+    <p>Posición: {{ futbolista.posicion.nombre_posicion }}</p>
+</div>
+}@else {
+<div class="container">
+    <h2>No existe el usuario</h2>
+    <p>Digite bien el id del usuario</p>
+</div>
+}
